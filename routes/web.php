@@ -70,7 +70,9 @@ Route::get("updatecart1","cartController@updatecart")->name('updatecart1');
 
 Route :: post("updatecart1","cartController@updatecart1")->name('updatecart1');
 
+Route::get("updatecart2","cartController@updatecart")->name('updatecart1');
 
+Route :: post("updatecart2","cartController@updatecart1")->name('updatecart1');
 
 
 
