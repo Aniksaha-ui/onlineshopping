@@ -66,6 +66,9 @@ Route::post('/updatecart','cartController@updatecart')->name('updatecart');
 Route::get('/request','cartController@request');
 
 
+Route::get("updatecart","cartController@updatecart")->name('updatecart1');
+
+
 
 
 
